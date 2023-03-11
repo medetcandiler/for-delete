@@ -1,0 +1,31 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+}
+
+/* NAV-BAR STYLING AREA */
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  align-items: center;
+  height: 5rem;
+  background-color: #020202;
+  color: #f2f2f2;
+}
+.nav-end{
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+.nav-end>li:hover{
+  color: bisque;
+}
+li{
+  list-style-type: none;
+}
+
